@@ -13,7 +13,8 @@ int main(){
     cin>>n;
     for(int i=1;i<=n;i++)
         cin>>stairs[i];
-        
+
+    
     dp[0]=0; //점화식 쓰기 편리.    
     dp[1]=stairs[1];
     dp[2]=stairs[1]+stairs[2];
@@ -23,7 +24,5 @@ int main(){
     }
 
     cout<<dp[n];
-    //for(int i=1;i<=n;i++)
-     //   cout<<dp[i]<<"\n";
 
 }
