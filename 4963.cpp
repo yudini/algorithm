@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <vector>
 
+using namespace std;
+
 vector <int> a[50];
 
 int a[50][50];
 int visited[50][50];
-
-using namespace std;
 
 void dfs(int x,int y){
     visited[x][y]=1;
