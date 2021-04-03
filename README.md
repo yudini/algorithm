@@ -1,2 +1,1 @@
-# algorithm 
-## study in Baekjoon algorithm 
+# algorithm  
