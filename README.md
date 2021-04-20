@@ -1,1 +1,3 @@
-# algorithm  
+# algorithm  study
+## - BOJ
+## -Programmers
