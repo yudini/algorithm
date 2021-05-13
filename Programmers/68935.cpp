@@ -18,8 +18,3 @@ int solution(int n) {
 
     return answer;
 }
-
-int main(){
-    int a=solution(229);
-    printf("%d",a);
-}
