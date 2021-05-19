@@ -33,9 +33,13 @@ int main(){
         }else if(s=="size"){
             cout<<q.size()<<"\n" ;
         }else if(s=="front"){
-            cout<<q.front()<<"\n" ;
+            if(!q.empty())
+                cout<<q.front()<<"\n" ;
+            else cout<<-1<<"\n";
         }else{
-            cout<<q.back()<<"\n" ;
+            if(!q.empty())
+                cout<<q.back()<<"\n" ;
+            else cout<<-1<<"\n";
         }
 
     }
