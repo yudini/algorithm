@@ -16,7 +16,7 @@ int main(){
 
 /*
 q.pop();
-q.pop(q.front());
+q.push(q.front());
 q.pop();
 */
     for(int i=1;i<=N;i++){
@@ -27,7 +27,7 @@ q.pop();
 
         /*
         q.pop();
-        q.pop(q.front());
+        q.push(q.front());
         q.pop();
         */
         if(x%2==0){
