@@ -35,6 +35,9 @@
 #VSCode
 *.json
 *.exec
+*
+!*.*
+!*/
 
 #Mac
 *.DS_Store
